@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    overflow: hidden;
+    margin: 0;
+    background: #381013;
+}
+
+.container {
+    font-size: 18px;
+    display: flex;
+    height: 100vh;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .block {
+        width: 100vw;
+        margin: auto;
+        padding: 70px 0 25px 0;
+        background: #161616;
+        .quoteBox {
+            width: 500px;
+            margin: auto;
+            #character {
+                font-size: 22px;
+                padding: 10px;
+                text-align: right;
+            }
+        }
+        .quoteBtn {
+            width: 200px;
+            margin: 50px auto 20px auto;
+            padding: 15px 0;
+            cursor: pointer;
+            transition: .5s ease;
+            color: white;
+            border-radius: 10px;
+            background: #424242;
+            &:hover {
+                background: #25282d;
+            }
+        }
+        #tweet {
+            font-size: 40px;
+            margin: 10px 0;
+            transition: 1s ease;
+            text-decoration: none;
+            color: #4286f4;
+            &:hover {
+                transform: rotateY(360deg);
+            }
+        }
+    }
+}
+
+.center {
+    text-align: center;
+}
