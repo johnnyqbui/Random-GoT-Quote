@@ -1,5 +1,4 @@
 require('./styles/style.scss');
-require('style!css!font-awesome/css/font-awesome.min.css');
 
 function newQuote() {
   var api = "https://got-quotes.herokuapp.com/quotes?";
